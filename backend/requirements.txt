@@ -7,4 +7,5 @@ newspaper3k
 boilerpy3
 firebase-admin
 torch
+gunicorn
 
