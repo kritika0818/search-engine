@@ -1,0 +1,11 @@
+# Ignore Firebase service key
+backend/serviceAccountKey.json
+
+# Python environment folders
+venv/
+__pycache__/
+*.pyc
+
+# IDE config files
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+flask
+flask-cors
+requests
+beautifulsoup4
+transformers
+newspaper3k
+boilerpy3
+firebase-admin
+torch
+
