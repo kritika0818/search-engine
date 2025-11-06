@@ -12,3 +12,4 @@ opencv-python
 Cython
 flask-cors
 beautifulsoup4
+transformers
