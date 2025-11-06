@@ -2,7 +2,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 
 # Initialize Firebase Admin with service account
-cred = credentials.Certificate("FIREBASE_KEY_JSON")
+cred = credentials.Certificate("C:\Users\lenovo\OneDrive\Desktop\my-project\backend\serviceAccountKey.json")
 firebase_admin.initialize_app(cred)
 
 # Firestore client instance
