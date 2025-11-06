@@ -13,4 +13,4 @@ Cython
 flask-cors
 beautifulsoup4
 transformers
-newspaper
+newspaper3k
