@@ -10,4 +10,3 @@ pylidc
 scikit-learn
 opencv-python
 Cython
-backend/serviceAccountKey.json
