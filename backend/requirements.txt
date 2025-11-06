@@ -10,3 +10,4 @@ pylidc
 scikit-learn
 opencv-python
 Cython
+flask-cors
