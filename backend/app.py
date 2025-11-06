@@ -16,7 +16,7 @@ app = Flask(__name__)
 app.secret_key = "verysecrethackathonkey123"
 CORS(app)
 
-cred = credentials.Certificate("C:\Users\lenovo\OneDrive\Desktop\my-project\backend\serviceAccountKey.json")
+cred = credentials.Certificate(r'D:\backend\serviceAccountKey.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
