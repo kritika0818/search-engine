@@ -16,7 +16,13 @@ app = Flask(__name__)
 app.secret_key = "verysecrethackathonkey123"
 CORS(app)
 
-cred = credentials.Certificate(r'D:\backend\serviceAccountKey.json')
+cred_json = os.getenv('GOOGLE_APPLICATION_CREDENTIALS_JSON')
+if cred_json:
+    cred_dict = json.loads(cred_json)
+    cred = credentials.Certificate(cred_dict)
+else:
+    cred = credentials.Certificate(r'D:\backend\serviceAccountKey.json')  # Adjust local path
+
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
