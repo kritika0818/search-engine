@@ -8,4 +8,5 @@ boilerpy3
 firebase-admin
 torch
 gunicorn
+lxml[html_clean]
 
