@@ -9,7 +9,7 @@ import re
 import urllib.parse
 import firebase_admin
 from firebase_admin import credentials, firestore
-
+import json
 from newspaper import Article
 from boilerpy3 import extractors
 
