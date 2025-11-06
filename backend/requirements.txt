@@ -1,0 +1,13 @@
+Flask
+gunicorn
+firebase-admin
+requests
+lxml[html_clean]
+pandas
+numpy
+pydicom
+pylidc
+scikit-learn
+opencv-python
+Cython
+backend/serviceAccountKey.json
